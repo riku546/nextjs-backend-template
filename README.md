@@ -9,24 +9,24 @@
 - Prisma
 
   
-### 初期設定
+## 初期設定
 
-####Nextjs
+### Nextjs
     
     npm i 
 
-#### Supabase
+### Supabase
 プロジェクトの作成とDataBaseUrlの取得（session modeのurl）
 ＊プロジェクト作成時のデータベースパスワードは記号を使うとマイグレーションが出来なくなるので、注意
 
-#### Prima
+### Prima
 Prismaの初期化
 
-        npx prisma init 
+    npx prisma init 
 
 .envファイルにSupabaseのurlを記述する
 後は、テーブルを定義して、マイグレートする。
 
-#### Clerk
+### Clerk
 公式ドキュメントを参照。
 https://clerk.com/docs/quickstarts/nextjs
